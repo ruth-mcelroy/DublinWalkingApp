@@ -151,6 +151,7 @@
       <HintPath>..\packages\RazorEngine.3.4.1\lib\net45\RazorEngine.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Device" />
     <Reference Include="System.IdentityModel.Tokens.Jwt, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.3.0.2\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
       <Private>True</Private>
@@ -219,7 +220,10 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\TodoItemController.cs" />
     <Compile Include="DataObjects\TodoItem.cs" />
+    <Compile Include="Models\Audio.cs" />
+    <Compile Include="Models\Location.cs" />
     <Compile Include="Models\MobileServiceContext.cs" />
+    <Compile Include="Models\Walk.cs" />
     <Compile Include="ScheduledJobs\SampleJob.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
