@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 using System.Device.Location;
 //using System.Windows.Devices.Geolocation;
 
-namespace Dublin_WalkingTourApp.Models
+namespace WebServiceWalkingApp.Models
 {
-    class Location
+    public class Location
     {
         [Key]
         public int ID { get; set; }

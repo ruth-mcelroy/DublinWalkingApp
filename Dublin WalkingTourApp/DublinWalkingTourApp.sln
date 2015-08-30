@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dublin WalkingTourApp", "Dublin WalkingTourApp\Dublin WalkingTourApp.csproj", "{DF8CBFF3-5A32-4E14-A9BE-6F96EFC9CF85}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DublinWalkingTourApp", "Dublin WalkingTourApp\DublinWalkingTourApp.csproj", "{DF8CBFF3-5A32-4E14-A9BE-6F96EFC9CF85}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceWalkingApp", "WebServiceWalkingApp\WebServiceWalkingApp.csproj", "{132982CD-BAF6-4912-92BA-132A53947D42}"
 EndProject

@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dublin_WalkingTourApp.Models
+namespace WebServiceWalkingApp.Models
 {
-    class Walk
+    public class Walk
     {
         [Key]
         public int ID{get;set;}
