@@ -9,9 +9,9 @@ namespace WebServiceWalkingApp.Models
 {
     public class Walk
     {
-        [Key]
+        //[Key]
         public int ID{get;set;}
-        [Required]
+        //[Required]
         public string Name { get; set; }
         public string Description { get; set; }
         public IEnumerable<Location> Stops {get; set;}

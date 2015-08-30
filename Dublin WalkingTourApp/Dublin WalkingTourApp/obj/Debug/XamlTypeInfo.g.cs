@@ -13,13 +13,13 @@ namespace Dublin_WalkingTourApp
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        private global::WebServiceWalkingApp.DublinWalkingTourApp_XamlTypeInfo.XamlTypeInfoProvider _provider;
 
         public global::Windows.UI.Xaml.Markup.IXamlType GetXamlType(global::System.Type type)
         {
             if(_provider == null)
             {
-                _provider = new global::Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::WebServiceWalkingApp.DublinWalkingTourApp_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByType(type);
         }
@@ -28,7 +28,7 @@ namespace Dublin_WalkingTourApp
         {
             if(_provider == null)
             {
-                _provider = new global::Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::WebServiceWalkingApp.DublinWalkingTourApp_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByName(fullName);
         }
@@ -40,7 +40,7 @@ namespace Dublin_WalkingTourApp
     }
 }
 
-namespace Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo
+namespace WebServiceWalkingApp.DublinWalkingTourApp_XamlTypeInfo
 {
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", "4.0.0.0")]    
@@ -171,8 +171,8 @@ namespace Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
-            global::Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType userType;
+            global::WebServiceWalkingApp.DublinWalkingTourApp_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::WebServiceWalkingApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType userType;
             string typeName = _typeNameTable[typeIndex];
             global::System.Type type = _typeTable[typeIndex];
 
@@ -180,18 +180,18 @@ namespace Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo
             {
 
             case 0:   //  Dublin_WalkingTourApp.MainPage
-                userType = new global::Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::WebServiceWalkingApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_0_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 1:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::WebServiceWalkingApp.DublinWalkingTourApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::WebServiceWalkingApp.DublinWalkingTourApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
@@ -201,7 +201,7 @@ namespace Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlMember xamlMember = null;
+            global::WebServiceWalkingApp.DublinWalkingTourApp_XamlTypeInfo.XamlMember xamlMember = null;
             // No Local Properties
             return xamlMember;
         }
@@ -258,9 +258,9 @@ namespace Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", "4.0.0.0")]    
     [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class XamlUserType : global::Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlSystemBaseType
+    internal class XamlUserType : global::WebServiceWalkingApp.DublinWalkingTourApp_XamlTypeInfo.XamlSystemBaseType
     {
-        global::Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::WebServiceWalkingApp.DublinWalkingTourApp_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Windows.UI.Xaml.Markup.IXamlType _baseType;
         bool _isArray;
         bool _isMarkupExtension;
@@ -274,7 +274,7 @@ namespace Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
+        public XamlUserType(global::WebServiceWalkingApp.DublinWalkingTourApp_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
             _provider = provider;
@@ -467,7 +467,7 @@ namespace Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo
     [System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlMember : global::Windows.UI.Xaml.Markup.IXamlMember
     {
-        global::Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::WebServiceWalkingApp.DublinWalkingTourApp_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -476,7 +476,7 @@ namespace Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::Dublin_WalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::WebServiceWalkingApp.DublinWalkingTourApp_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;

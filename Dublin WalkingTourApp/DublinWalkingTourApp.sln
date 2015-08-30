@@ -5,8 +5,6 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DublinWalkingTourApp", "Dublin WalkingTourApp\DublinWalkingTourApp.csproj", "{DF8CBFF3-5A32-4E14-A9BE-6F96EFC9CF85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceWalkingApp", "WebServiceWalkingApp\WebServiceWalkingApp.csproj", "{132982CD-BAF6-4912-92BA-132A53947D42}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,14 +33,6 @@ Global
 		{DF8CBFF3-5A32-4E14-A9BE-6F96EFC9CF85}.Release|x86.ActiveCfg = Release|x86
 		{DF8CBFF3-5A32-4E14-A9BE-6F96EFC9CF85}.Release|x86.Build.0 = Release|x86
 		{DF8CBFF3-5A32-4E14-A9BE-6F96EFC9CF85}.Release|x86.Deploy.0 = Release|x86
-		{132982CD-BAF6-4912-92BA-132A53947D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{132982CD-BAF6-4912-92BA-132A53947D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{132982CD-BAF6-4912-92BA-132A53947D42}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{132982CD-BAF6-4912-92BA-132A53947D42}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{132982CD-BAF6-4912-92BA-132A53947D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{132982CD-BAF6-4912-92BA-132A53947D42}.Release|Any CPU.Build.0 = Release|Any CPU
-		{132982CD-BAF6-4912-92BA-132A53947D42}.Release|ARM.ActiveCfg = Release|Any CPU
-		{132982CD-BAF6-4912-92BA-132A53947D42}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

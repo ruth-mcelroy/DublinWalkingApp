@@ -7,8 +7,8 @@
     <ProjectGuid>{DF8CBFF3-5A32-4E14-A9BE-6F96EFC9CF85}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Dublin_WalkingTourApp</RootNamespace>
-    <AssemblyName>Dublin WalkingTourApp</AssemblyName>
+    <RootNamespace>DublinWalkingTourApp</RootNamespace>
+    <AssemblyName>DublinWalkingTourApp</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformVersion>8.1</TargetPlatformVersion>
     <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
