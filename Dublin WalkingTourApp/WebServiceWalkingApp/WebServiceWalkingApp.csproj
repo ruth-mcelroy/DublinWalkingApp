@@ -220,10 +220,14 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\TodoItemController.cs" />
     <Compile Include="DataObjects\TodoItem.cs" />
+    <Compile Include="Migrations\201509061656159_Initial.cs" />
+    <Compile Include="Migrations\201509061656159_Initial.Designer.cs">
+      <DependentUpon>201509061656159_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Audio.cs" />
     <Compile Include="Models\Location.cs" />
     <Compile Include="Models\MobileServiceContext.cs" />
-    <Compile Include="Models\Test.cs" />
     <Compile Include="Models\Walk.cs" />
     <Compile Include="ScheduledJobs\SampleJob.cs" />
     <Compile Include="Global.asax.cs">
@@ -252,6 +256,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\mobile%24WebServiceWalkingApp.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201509061656159_Initial.resx">
+      <DependentUpon>201509061656159_Initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

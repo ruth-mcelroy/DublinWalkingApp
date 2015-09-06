@@ -11,8 +11,8 @@ namespace WebServiceWalkingApp.Models
     public class Audio
     {
         [Key]
-        public int ID { get; set; }
-        [Required]
+        public int AudioID { get; set; }
+        //[Required]
         public string Name { get; set; }
         public byte[] File { get; set; }
         

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Device.Location;
+using System.ComponentModel.DataAnnotations.Schema;
 //using System.Windows.Devices.Geolocation;
 
 namespace WebServiceWalkingApp.Models
@@ -12,12 +13,17 @@ namespace WebServiceWalkingApp.Models
     public class Location
     {
         [Key]
-        public int ID { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int LocationID { get; set; }
         [Required]
         public string Name { get; set; }
-        public GeoCoordinate Stop { get; set; }
+        //public GeoCoordinate Stop { get; set; }
         public int Order{get;set;}
-        public Audio AudioInfo { get; set; }
+
+        public virtual Audio AudioInfo { get; set; }
+
+
+
 
 
     }

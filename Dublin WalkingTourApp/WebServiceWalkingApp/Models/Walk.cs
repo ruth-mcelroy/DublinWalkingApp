@@ -10,7 +10,7 @@ namespace WebServiceWalkingApp.Models
     public class Walk
     {
         //[Key]
-        public int ID{get;set;}
+        public int WalkID{get;set;}
         //[Required]
         public string Name { get; set; }
         public string Description { get; set; }
