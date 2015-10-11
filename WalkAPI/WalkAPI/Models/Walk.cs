@@ -12,11 +12,9 @@ namespace WalkAPI.Models
     {
         [Key]
         public int WalkID { get; set; }
-        //[Required]
+        [Required]
         public string Name { get; set; }
         public string Description { get; set; }
-        [ForeignKey("Location")]
-        public int LocationID { get; set; }
         public IEnumerable<Location> Stops { get; set; }
     }
 }

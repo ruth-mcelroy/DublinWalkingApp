@@ -19,8 +19,6 @@ namespace WalkAPI.Models
         public string Name { get; set; }
         //public GeoCoordinate Stop { get; set; }
         public int Order { get; set; }
-        [ForeignKey("Audio")]
-        public int AudioID { get; set; }
         public virtual Audio AudioInfo { get; set; }
 
 
