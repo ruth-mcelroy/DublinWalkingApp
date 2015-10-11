@@ -25,3 +25,8 @@ C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Web.Http.W
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Debug\WalkAPI.csprojResolveAssemblyReference.cache
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Debug\WalkAPI.dll
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Debug\WalkAPI.pdb
+C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\EntityFramework.dll
+C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Device.Portable.dll
+C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\EntityFramework.xml
+C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\EntityFramework.SqlServer.xml

@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Device.Location;
 using System.ComponentModel.DataAnnotations.Schema;
-//using System.Windows.Devices.Geolocation;
+
 
 namespace WalkAPI.Models
 {

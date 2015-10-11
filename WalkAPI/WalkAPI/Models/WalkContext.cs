@@ -7,20 +7,20 @@ using System.Web;
 namespace WalkAPI.Models
 {
 
-    public class MobileServiceContext : DbContext
+    public class WalkContext : DbContext
     {
 
 
-        public MobileServiceContext()
+        public WalkContext()
             : base("DefaultConnection")
         {
-            Database.SetInitializer<MobileServiceContext>(new DropCreateDatabaseAlways<MobileServiceContext>());
+            Database.SetInitializer<WalkContext>(new DropCreateDatabaseAlways<WalkContext>());
         }
-        public System.Data.Entity.DbSet<WebServiceWalkingApp.Models.Walk> Walks { get; set; }
+        public System.Data.Entity.DbSet<WalkAPI.Models.Walk> Walks { get; set; }
 
-        public System.Data.Entity.DbSet<WebServiceWalkingApp.Models.Audio> Audios { get; set; }
+        public System.Data.Entity.DbSet<WalkAPI.Models.Audio> Audios { get; set; }
 
-        public System.Data.Entity.DbSet<WebServiceWalkingApp.Models.Location> Locations { get; set; }
+        public System.Data.Entity.DbSet<WalkAPI.Models.Location> Locations { get; set; }
     }
 
 }
