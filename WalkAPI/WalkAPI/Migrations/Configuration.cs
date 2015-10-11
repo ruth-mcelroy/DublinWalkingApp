@@ -26,11 +26,11 @@ namespace WebServiceWalkingApp.Migrations
                 System.Diagnostics.Debugger.Launch();
 
 
-            Audio a1 = new Audio { Name = "test" };
+            Audio a1 = new Audio { AudioID= 1, Name = "test" };
 
-            context.Locations.AddOrUpdate(
+            context.Audios.AddOrUpdate(
               l => l.Name,
-              new Location { Name = "Test11", Order = 4 }
+              new Audio { Name = "Test11" }
               );
 
             //using (BinaryReader br = new BinaryReader(FileUpload1.PostedFile.InputStream))

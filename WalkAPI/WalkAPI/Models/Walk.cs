@@ -11,6 +11,7 @@ namespace WalkAPI.Models
     public class Walk
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int WalkID { get; set; }
         [Required]
         public string Name { get; set; }
