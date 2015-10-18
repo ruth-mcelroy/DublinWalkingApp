@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>RUTHMCELROY-PC</Machine>
+    <WindowsUser>Ruth McElroy</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ffea1089-11d6-47a4-8289-5a3e64995956</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\DublinWalkingTourApp.exe">
+      <PackagePath>DublinWalkingTourApp.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\DublinWalkingTourApp.xr.xml">
+      <PackagePath>DublinWalkingTourApp.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
