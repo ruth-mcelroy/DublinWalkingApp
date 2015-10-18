@@ -12,11 +12,10 @@ namespace WalkAPI.Models
     public class Audio
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int AudioID { get; set; }
         [Required]
         public string Name { get; set; }
-        public byte[] File { get; set; }
+        public byte[] AudioFile { get; set; }
 
     }
 }

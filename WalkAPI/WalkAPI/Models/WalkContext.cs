@@ -14,7 +14,7 @@ namespace WalkAPI.Models
         public WalkContext()
             : base("DefaultConnection")
         {
-            Database.SetInitializer<WalkContext>(new DropCreateDatabaseAlways<WalkContext>());
+            Database.SetInitializer<WalkContext>(new DropCreateDatabaseIfModelChanges<WalkContext>());
         }
         public System.Data.Entity.DbSet<WalkAPI.Models.Walk> Walks { get; set; }
 

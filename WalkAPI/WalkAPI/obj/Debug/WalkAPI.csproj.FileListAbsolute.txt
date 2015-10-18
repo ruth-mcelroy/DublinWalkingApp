@@ -22,7 +22,6 @@ C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\Newtonsoft.Json.x
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Net.Http.Formatting.xml
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Web.Http.xml
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Web.Http.WebHost.xml
-C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Debug\WalkAPI.csprojResolveAssemblyReference.cache
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Debug\WalkAPI.dll
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Debug\WalkAPI.pdb
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\EntityFramework.dll
@@ -42,5 +41,5 @@ C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Web.Razor.
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Web.WebPages.xml
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Web.WebPages.Razor.xml
-C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Debug\WebServiceWalkingApp.Migrations.Initial.resources
+C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Debug\WalkAPI.Migrations.Initial.resources
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Debug\WalkAPI.csproj.GenerateResource.Cache
