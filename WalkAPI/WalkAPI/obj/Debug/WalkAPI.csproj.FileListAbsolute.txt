@@ -43,3 +43,4 @@ C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Web.WebPag
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Web.WebPages.Razor.xml
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Debug\WalkAPI.Migrations.Initial.resources
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Debug\WalkAPI.csproj.GenerateResource.Cache
+C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Debug\WalkAPI.csprojResolveAssemblyReference.cache
