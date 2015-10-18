@@ -20,13 +20,11 @@ C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\Microsoft.AI.Wind
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\Microsoft.ApplicationInsights.xml
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\Newtonsoft.Json.xml
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Net.Http.Formatting.xml
-C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Web.Http.xml
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Web.Http.WebHost.xml
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Debug\WalkAPI.dll
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Debug\WalkAPI.pdb
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\EntityFramework.dll
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\EntityFramework.SqlServer.dll
-C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\EntityFramework.xml
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\EntityFramework.SqlServer.xml
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Web.Helpers.dll
