@@ -9,30 +9,31 @@ using WalkAPI.Models;
 namespace WalkAPI.Controllers
 {
     [RoutePrefix("api")]
-    public class WalkingAppAPI : ApiController
+    public class WalkController : ApiController
     {
         [HttpGet]
         [Route("walks")]
         // GET api/walks
-        public IEnumerable<Walk> GetWalks()
+        public IHttpActionResult GetWalks()
         {
             WalkContext walkDb = new WalkContext();
 
             IEnumerable<Walk> walklist = walkDb.Walks.Where(w => w.Name != null);
 
-            return walklist;
+            return Ok(walklist);
         }
 
         [HttpGet]
-        [Route("walk/{walk}/location/{order}")]
-        public Location GetLocation( int walk, int order)
+        [Route("location/{id}")]
+        // GET api/location/1
+        public IHttpActionResult GetLocation(int id)
         {
             WalkContext locDb = new WalkContext();
 
-            Location loc = locDb.Locations.Where(l => l.WalkInfo.WalkID == walk || l.WalkInfo.WalkID == null) 
-                                          .First(l => l.Order == order);
+            Location loc = locDb.Locations.Where(l => l.WalkInfo.WalkID == 1 || l.WalkInfo.WalkID == null) 
+                                          .First(l => l.Order == id);
 
-            return loc ;
+            return Ok(loc) ;
         }
 
 
