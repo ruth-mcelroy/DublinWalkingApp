@@ -1,0 +1,6 @@
+﻿1>------ Build started: Project: WalkAPI, Configuration: Release Any CPU ------
+1>  WalkAPI -> C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\WalkAPI.dll
+2>------ Build started: Project: WalkAPI.Azure, Configuration: Release Any CPU ------
+3>------ Publish started: Project: WalkAPI.Azure, Configuration: Release Any CPU ------
+3>		Transformed Web.config using C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\Web.Release.config into obj\Release\TransformWebConfig\transformed\Web.config.
+3>WalkAPI(0,0): warning WAT170: The configuration setting 'Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString' is set up to use the local storage emulator for role 'WalkAPI' in configuration file 'ServiceConfiguration.Cloud.cscfg'. To access Microsoft Azure storage services, you must provide a valid Microsoft Azure storage connection string.
