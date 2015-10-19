@@ -24,8 +24,8 @@ namespace WalkAPI.Controllers
         }
 
         [HttpGet]
-        [Route("walk/location")]
-        public Location Get(int order, int walk)
+        [Route("walk/{walk}/location/{order}")]
+        public Location GetLocation( int walk, int order)
         {
             WalkContext locDb = new WalkContext();
 
@@ -35,11 +35,7 @@ namespace WalkAPI.Controllers
             return loc ;
         }
 
-        // GET api/<controller>/5
-        public string Get(int id)
-        {
-            return "value";
-        }
+
 
 
     }
