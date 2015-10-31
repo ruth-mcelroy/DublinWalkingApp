@@ -43,14 +43,14 @@ namespace WalkAPI.Migrations
 
              context.Locations.AddOrUpdate(
                p => p.LocationID,
-               new Location { LocationID = 1, Name = "Number 42" },
-               new Location { LocationID = 2, Name = "Quote" },
-               new Location { LocationID = 3, Name = "Lower O'Connell" },
-               new Location { LocationID = 4, Name = "GPO" },
-               new Location { LocationID = 5, Name = "The Spire" },
-               new Location { LocationID = 6, Name = "Nelson's Column" },
-               new Location { LocationID = 7, Name = "World Boxing Championship" },
-               new Location { LocationID = 8, Name = "Daniel O'Connell" }
+               new Location { LocationID = 1, Name = "Number 42", Order =1 },
+               new Location { LocationID = 2, Name = "Quote", Order = 2 },
+               new Location { LocationID = 3, Name = "Lower O'Connell", Order = 3 },
+               new Location { LocationID = 4, Name = "GPO", Order = 4 },
+               new Location { LocationID = 5, Name = "The Spire", Order = 5 },
+               new Location { LocationID = 6, Name = "Nelson's Column", Order = 6 },
+               new Location { LocationID = 7, Name = "World Boxing Championship", Order = 7 },
+               new Location { LocationID = 8, Name = "Daniel O'Connell", Order = 8 }
              );
 
 

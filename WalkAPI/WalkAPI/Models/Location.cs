@@ -16,6 +16,7 @@ namespace WalkAPI.Models
         public int LocationID { get; set; }
         [Required]
         public string Name { get; set; }
+        public int Order { get; set; }
         //public GeoCoordinate Stop { get; set; }
 
 
