@@ -7,10 +7,13 @@ namespace WalkAPI.Migrations
     {
         public override void Up()
         {
+            DropColumn("dbo.Locations", "AudioInfo_AudioID");
+            DropColumn("dbo.Locations", "WalkInfo_WalkID");
         }
         
         public override void Down()
         {
+
         }
     }
 }

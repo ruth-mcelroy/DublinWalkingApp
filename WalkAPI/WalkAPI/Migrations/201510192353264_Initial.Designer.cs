@@ -13,7 +13,7 @@ namespace WalkAPI.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201510182203007_Initial"; }
+            get { return "201510192353264_Initial"; }
         }
         
         string IMigrationMetadata.Source

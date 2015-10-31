@@ -17,9 +17,7 @@ namespace WalkAPI.Models
         [Required]
         public string Name { get; set; }
         //public GeoCoordinate Stop { get; set; }
-        public int Order { get; set; }
-        public virtual Walk WalkInfo { get; set; }
-        public virtual Audio AudioInfo { get; set; }
+
 
 
 
