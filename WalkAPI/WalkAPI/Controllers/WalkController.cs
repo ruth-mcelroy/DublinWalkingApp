@@ -30,8 +30,7 @@ namespace WalkAPI.Controllers
         {
             WalkContext locDb = new WalkContext();
 
-            Location loc = locDb.Locations.Where(l => l.WalkInfo.WalkID == 1 || l.WalkInfo.WalkID == null) 
-                                          .First(l => l.Order == id);
+            Location loc = locDb.Locations.First(l => l.LocationID == id);
 
             return Ok(loc) ;
         }

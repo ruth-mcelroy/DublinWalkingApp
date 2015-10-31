@@ -12,7 +12,7 @@ namespace WalkAPI.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(WalkAPI.Models.WalkContext context)
@@ -43,14 +43,14 @@ namespace WalkAPI.Migrations
 
              context.Locations.AddOrUpdate(
                p => p.LocationID,
-               new Location { LocationID = 1, WalkInfo = context.Walks.FirstOrDefault(w => w.WalkID == 1), Name = "Number 42", Order = 1, AudioInfo = context.Audios.First(a => a.AudioID == 1) },
-               new Location { LocationID = 2, WalkInfo = context.Walks.FirstOrDefault(w => w.WalkID == 1), Name = "Quote", Order = 2, AudioInfo = context.Audios.First(a => a.AudioID == 2) },
-               new Location { LocationID = 3, WalkInfo = context.Walks.FirstOrDefault(w => w.WalkID == 1), Name = "Lower O'Connell", Order = 3, AudioInfo = context.Audios.First(a => a.AudioID == 3) },
-               new Location { LocationID = 4, WalkInfo = context.Walks.FirstOrDefault(w => w.WalkID == 1), Name = "GPO", Order = 4, AudioInfo = context.Audios.First(a => a.AudioID == 4) },
-               new Location { LocationID = 5, WalkInfo = context.Walks.FirstOrDefault(w => w.WalkID == 1), Name = "The Spire", Order = 5, AudioInfo = context.Audios.First(a => a.AudioID == 5) },
-               new Location { LocationID = 6, WalkInfo = context.Walks.FirstOrDefault(w => w.WalkID == 1), Name = "Nelson's Column", Order = 6, AudioInfo = context.Audios.First(a => a.AudioID == 6) },
-               new Location { LocationID = 7, WalkInfo = context.Walks.FirstOrDefault(w => w.WalkID == 1), Name = "World Boxing Championship", Order = 7, AudioInfo = context.Audios.First(a => a.AudioID == 7) },
-               new Location { LocationID = 8, WalkInfo = context.Walks.FirstOrDefault(w => w.WalkID == 1), Name = "Daniel O'Connell", Order = 8, AudioInfo = context.Audios.First(a => a.AudioID == 8) }
+               new Location { LocationID = 1, Name = "Number 42", Order =1 },
+               new Location { LocationID = 2, Name = "Quote", Order = 2 },
+               new Location { LocationID = 3, Name = "Lower O'Connell", Order = 3 },
+               new Location { LocationID = 4, Name = "GPO", Order = 4 },
+               new Location { LocationID = 5, Name = "The Spire", Order = 5 },
+               new Location { LocationID = 6, Name = "Nelson's Column", Order = 6 },
+               new Location { LocationID = 7, Name = "World Boxing Championship", Order = 7 },
+               new Location { LocationID = 8, Name = "Daniel O'Connell", Order = 8 }
              );
 
 
