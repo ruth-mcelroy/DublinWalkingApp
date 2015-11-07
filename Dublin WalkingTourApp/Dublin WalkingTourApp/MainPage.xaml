@@ -9,6 +9,13 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="61*"/>
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Right" TextWrapping="Wrap" Text="Dublin Walking Tours" VerticalAlignment="Top" Height="74" Width="294" SelectionChanged="TextBlock_SelectionChanged" FontSize="30" Margin="0,68,10,0" FontFamily="Oxygen"/>
+        <Image x:Name="logo" HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="86" Source="Assets/logobright.png" Margin="10,24,0,0"/>
+        <ListView HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Page>
