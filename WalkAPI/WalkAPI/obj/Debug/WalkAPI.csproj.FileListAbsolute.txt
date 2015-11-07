@@ -90,6 +90,3 @@ C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\ko\System.Spatial
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\ru\System.Spatial.resources.dll
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Debug\WalkAPI.Migrations.Initial.resources
-C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Debug\WalkAPI.csproj.GenerateResource.Cache
-C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Debug\WalkAPI.Migrations.Initial1.resources
