@@ -37,8 +37,6 @@ C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Web.WebPag
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Web.WebPages.Razor.xml
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Net.Http.Formatting.xml
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\System.Web.Http.WebHost.xml
-C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Release\WalkAPI.Migrations.Initial.resources
-C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Release\WalkAPI.csproj.GenerateResource.Cache
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Release\WalkAPI.dll
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\obj\Release\WalkAPI.pdb
 C:\Users\Ruth McElroy\Documents\WalkingApp\WalkAPI\WalkAPI\bin\Microsoft.Data.Edm.dll

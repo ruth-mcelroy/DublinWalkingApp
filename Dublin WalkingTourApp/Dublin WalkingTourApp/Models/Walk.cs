@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Dublin_WalkingTourApp.Models
 {
-    class Walk
+    public class Walk
     {
+        public int WalkID { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }

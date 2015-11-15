@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Dublin_WalkingTourApp.Models
 {
-    class Audio
+    public class Audio
     {
+        public int AudioID { get; set; }
+        public string Name { get; set; }
+        public byte[] AudioFile { get; set; }
     }
 }

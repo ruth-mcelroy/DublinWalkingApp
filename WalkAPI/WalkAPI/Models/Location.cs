@@ -18,11 +18,5 @@ namespace WalkAPI.Models
         public string Name { get; set; }
         public int Order { get; set; }
         //public GeoCoordinate Stop { get; set; }
-
-
-
-
-
-
     }
 }
