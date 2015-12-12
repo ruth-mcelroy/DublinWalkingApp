@@ -19,9 +19,36 @@
     <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\DublinWalkingTourApp.exe">
       <PackagePath>DublinWalkingTourApp.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.Common.winmd">
+      <PackagePath>Microsoft.Advertising.Mobile.Common.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.Display.winmd">
+      <PackagePath>Microsoft.Advertising.Mobile.Display.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI.winmd">
+      <PackagePath>Microsoft.Advertising.Mobile.UI.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\packages\Microsoft.Net.Http.2.2.29\lib\wpa81\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\packages\Microsoft.Net.Http.2.2.29\lib\wpa81\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI\Web\bootstrap.html">
+      <PackagePath>Microsoft.Advertising.Mobile.UI\Web\bootstrap.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI\Themes\Generic.xbf">
+      <PackagePath>Microsoft.Advertising.Mobile.UI\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI\Web\Ormma.js">
+      <PackagePath>Microsoft.Advertising.Mobile.UI\Web\Ormma.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Assets\logobright.png">
+      <PackagePath>Assets\logobright.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
@@ -42,6 +69,90 @@
     <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\110Banana.png">
+      <PackagePath>Data\Images\110Banana.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\110Lemon.png">
+      <PackagePath>Data\Images\110Lemon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\110Mint.png">
+      <PackagePath>Data\Images\110Mint.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\110Orange.png">
+      <PackagePath>Data\Images\110Orange.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\110Strawberry.png">
+      <PackagePath>Data\Images\110Strawberry.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\110Vanilla.png">
+      <PackagePath>Data\Images\110Vanilla.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\220Strawberry.png">
+      <PackagePath>Data\Images\220Strawberry.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\60Banana.png">
+      <PackagePath>Data\Images\60Banana.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\60Lemon.png">
+      <PackagePath>Data\Images\60Lemon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\60Mail01.png">
+      <PackagePath>Data\Images\60Mail01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\60Mail02.png">
+      <PackagePath>Data\Images\60Mail02.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\60Mail03.png">
+      <PackagePath>Data\Images\60Mail03.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\60Mint.png">
+      <PackagePath>Data\Images\60Mint.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\60Orange.png">
+      <PackagePath>Data\Images\60Orange.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\60SauceCaramel.png">
+      <PackagePath>Data\Images\60SauceCaramel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\60SauceChocolate.png">
+      <PackagePath>Data\Images\60SauceChocolate.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\60SauceStrawberry.png">
+      <PackagePath>Data\Images\60SauceStrawberry.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\60SprinklesChocolate.png">
+      <PackagePath>Data\Images\60SprinklesChocolate.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\60SprinklesRainbow.png">
+      <PackagePath>Data\Images\60SprinklesRainbow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\60SprinklesVanilla.png">
+      <PackagePath>Data\Images\60SprinklesVanilla.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\60Strawberry.png">
+      <PackagePath>Data\Images\60Strawberry.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\60Vanilla.png">
+      <PackagePath>Data\Images\60Vanilla.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\msg.png">
+      <PackagePath>Data\Images\msg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\banana.jpg">
+      <PackagePath>Data\Images\banana.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\mint.jpg">
+      <PackagePath>Data\Images\mint.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\orange.jpg">
+      <PackagePath>Data\Images\orange.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\strawberry.jpg">
+      <PackagePath>Data\Images\strawberry.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\Data\Images\vanilla.jpg">
+      <PackagePath>Data\Images\vanilla.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>

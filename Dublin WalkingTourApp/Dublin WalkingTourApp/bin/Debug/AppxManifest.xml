@@ -32,6 +32,19 @@
   <Capabilities>
     <Capability Name="internetClientServer" />
   </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>CLRHost.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Mobile.Common.PublisherErrorEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Mobile.Common.SdkInfoProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Mobile.Common.PublisherMessageEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Mobile.Display.Key35MSSharedLib1024" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Mobile.UI.AdControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Mobile.UI.UI_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value="WindowsPhoneApp,Version=v8.1" />
     <build:Item Name="VisualStudio" Version="12.0" />
@@ -40,6 +53,7 @@
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.40629.0" />
     <build:Item Name="ProjectGUID" Value="{DF8CBFF3-5A32-4E14-A9BE-6F96EFC9CF85}" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="12.0.30501.0" />
+    <build:Item Name="Microsoft.Advertising.Mobile.Display" Version="8.1" />
     <build:Item Name="MakePri.exe" Version="6.3.9600.17336 (winblue.150226-1500)" />
   </build:Metadata>
 </Package>

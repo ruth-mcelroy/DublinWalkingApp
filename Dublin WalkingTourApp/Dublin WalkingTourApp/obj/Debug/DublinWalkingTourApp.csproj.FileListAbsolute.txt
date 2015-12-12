@@ -30,3 +30,15 @@ C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingT
 C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\obj\Debug\ProjectArchitectures.txt
+C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\obj\Debug\DublinWalkingTourApp.csprojResolveAssemblyReference.cache
+C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\Microsoft.Advertising.Mobile.Common.winmd
+C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\Microsoft.Advertising.Mobile.Common.xml
+C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\Microsoft.Advertising.Mobile.Display.winmd
+C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\Microsoft.Advertising.Mobile.Display.xml
+C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\Microsoft.Advertising.Mobile.UI.winmd
+C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\Microsoft.Advertising.Mobile.UI.xml
+C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Ruth McElroy\Documents\WalkingApp\Dublin WalkingTourApp\Dublin WalkingTourApp\obj\Debug\DublinWalkingTourApp.csproj.GenerateResource.Cache
