@@ -28,8 +28,6 @@ namespace Dublin_WalkingTourApp
         public MainPage()
         {
             this.InitializeComponent();
-
-            this.NavigationCacheMode = NavigationCacheMode.Required;
         }
 
         /// <summary>
@@ -39,15 +37,11 @@ namespace Dublin_WalkingTourApp
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-           
+        }
 
-            DataSource d = new DataSource();
-
-            List<Walk> walksResult = d.WebRequestWalksAsync("http://dublinwalking.azurewebsites.net/api/walks").Result;
-
-            InitializeComponent();
-
-            lvDataBinding.ItemsSource = walksResult;
+        private void Location1(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(DublinWalkingTourApp.Location1));
         }
 
     }

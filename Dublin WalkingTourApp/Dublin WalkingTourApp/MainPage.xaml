@@ -15,7 +15,15 @@
         </Grid.RowDefinitions>
         <TextBlock HorizontalAlignment="Right" TextWrapping="Wrap" Text="Dublin Walking Tours" VerticalAlignment="Top" Height="74" Width="294" FontSize="30" Margin="0,68,10,0" FontFamily="Oxygen"/>
         <Image x:Name="logo" HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="86" Source="Assets/logobright.png" Margin="10,24,0,0"/>
-        <ListView HorizontalAlignment="Left" Height="189" VerticalAlignment="Top" Width="341" Margin="28,30.333,0,0" Grid.Row="1" Name="lvDataBinding" />
+
+        <Border  Margin="0,44.333,0,292" Grid.Row="1">
+            <Grid Tapped="Location1" HorizontalAlignment="Stretch" Margin="0">
+                <TextBlock  HorizontalAlignment="Left" FontSize="20" Margin="23,0,0,124">O'Connell Street Walk</TextBlock>
+                <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" FontSize="15" Margin="23,33,0,-126" Width="356">A walk along Ireland's most historic street. This walk includes information on the history and architecture of O'Connell street.</TextBlock>
+            </Grid>
+        </Border>
+
 
     </Grid>
+
 </Page>

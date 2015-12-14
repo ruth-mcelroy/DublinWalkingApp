@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="DublinWalkingTourApp.Audio1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DublinWalkingTourApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="61*"/>
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Right" TextWrapping="Wrap" Text="Dublin Walking Tours" VerticalAlignment="Top" Height="74" Width="294" FontSize="30" Margin="0,68,10,0" FontFamily="Oxygen"/>
+        <Image x:Name="logo" HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="86" Source="Assets/logobright.png" Margin="10,24,0,0"/>
+
+        <Border  Margin="0,44.333,0,292" Grid.Row="1">
+            <Grid HorizontalAlignment="Stretch" Margin="0">
+                <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" FontSize="15" Margin="34,0,0,-93" Width="356">Number 42</TextBlock>
+            </Grid>
+        </Border>
+        <Image  x:Name="pause" HorizontalAlignment="Left" Height="101" VerticalAlignment="Top" Width="102" Source="Assets/pause.png" Margin="144,73.333,0,0" Grid.Row="1"/>
+        <Image x:Name="FourTwo" HorizontalAlignment="Left" Height="211" VerticalAlignment="Top" Width="566" Source="Assets/42.jpg" Margin="34,179.333,-200,0" Grid.Row="1"/>
+        <TextBlock x:ConnectionId='1'                    TextWrapping="Wrap" HorizontalAlignment="Left" FontSize="30" Margin="184,418.333,-140,-177" Width="356" Grid.Row="1">Next Location</TextBlock>
+
+    </Grid>
+</Page>
+
