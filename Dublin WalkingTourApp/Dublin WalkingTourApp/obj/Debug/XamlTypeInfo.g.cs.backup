@@ -148,15 +148,41 @@ namespace DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
-            _typeNameTable[0] = "Dublin_WalkingTourApp.MainPage";
+            _typeNameTable = new string[16];
+            _typeNameTable[0] = "DublinWalkingTourApp.Location1";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "DublinWalkingTourApp.Common.NavigationHelper";
+            _typeNameTable[4] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[5] = "DublinWalkingTourApp.Common.ObservableDictionary";
+            _typeNameTable[6] = "Object";
+            _typeNameTable[7] = "String";
+            _typeNameTable[8] = "DublinWalkingTourApp.Location3";
+            _typeNameTable[9] = "DublinWalkingTourApp.Location4";
+            _typeNameTable[10] = "DublinWalkingTourApp.Audio1";
+            _typeNameTable[11] = "DublinWalkingTourApp.Audio2";
+            _typeNameTable[12] = "DublinWalkingTourApp.Audio3";
+            _typeNameTable[13] = "DublinWalkingTourApp.Audio4";
+            _typeNameTable[14] = "DublinWalkingTourApp.Location2";
+            _typeNameTable[15] = "Dublin_WalkingTourApp.MainPage";
 
-            _typeTable = new global::System.Type[3];
-            _typeTable[0] = typeof(global::Dublin_WalkingTourApp.MainPage);
+            _typeTable = new global::System.Type[16];
+            _typeTable[0] = typeof(global::DublinWalkingTourApp.Location1);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::DublinWalkingTourApp.Common.NavigationHelper);
+            _typeTable[4] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[5] = typeof(global::DublinWalkingTourApp.Common.ObservableDictionary);
+            _typeTable[6] = typeof(global::System.Object);
+            _typeTable[7] = typeof(global::System.String);
+            _typeTable[8] = typeof(global::DublinWalkingTourApp.Location3);
+            _typeTable[9] = typeof(global::DublinWalkingTourApp.Location4);
+            _typeTable[10] = typeof(global::DublinWalkingTourApp.Audio1);
+            _typeTable[11] = typeof(global::DublinWalkingTourApp.Audio2);
+            _typeTable[12] = typeof(global::DublinWalkingTourApp.Audio3);
+            _typeTable[13] = typeof(global::DublinWalkingTourApp.Audio4);
+            _typeTable[14] = typeof(global::DublinWalkingTourApp.Location2);
+            _typeTable[15] = typeof(global::Dublin_WalkingTourApp.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -191,7 +217,23 @@ namespace DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::Dublin_WalkingTourApp.MainPage(); }
+        private object Activate_0_Location1() { return new global::DublinWalkingTourApp.Location1(); }
+        private object Activate_5_ObservableDictionary() { return new global::DublinWalkingTourApp.Common.ObservableDictionary(); }
+        private object Activate_8_Location3() { return new global::DublinWalkingTourApp.Location3(); }
+        private object Activate_9_Location4() { return new global::DublinWalkingTourApp.Location4(); }
+        private object Activate_10_Audio1() { return new global::DublinWalkingTourApp.Audio1(); }
+        private object Activate_11_Audio2() { return new global::DublinWalkingTourApp.Audio2(); }
+        private object Activate_12_Audio3() { return new global::DublinWalkingTourApp.Audio3(); }
+        private object Activate_13_Audio4() { return new global::DublinWalkingTourApp.Audio4(); }
+        private object Activate_14_Location2() { return new global::DublinWalkingTourApp.Location2(); }
+        private object Activate_15_MainPage() { return new global::Dublin_WalkingTourApp.MainPage(); }
+        private void MapAdd_5_ObservableDictionary(object instance, object key, object item)
+        {
+            var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
+            var newKey = (global::System.String)key;
+            var newItem = (global::System.Object)item;
+            collection.Add(newKey, newItem);
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -203,9 +245,11 @@ namespace DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Dublin_WalkingTourApp.MainPage
+            case 0:   //  DublinWalkingTourApp.Location1
                 userType = new global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_0_Location1;
+                userType.AddMemberName("NavigationHelper");
+                userType.AddMemberName("DefaultViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -216,6 +260,89 @@ namespace DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  DublinWalkingTourApp.Common.NavigationHelper
+                userType = new global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  Windows.UI.Xaml.DependencyObject
+                xamlType = new global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 5:   //  DublinWalkingTourApp.Common.ObservableDictionary
+                userType = new global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.DictionaryAdd = MapAdd_5_ObservableDictionary;
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  Object
+                xamlType = new global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 7:   //  String
+                xamlType = new global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 8:   //  DublinWalkingTourApp.Location3
+                userType = new global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_8_Location3;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 9:   //  DublinWalkingTourApp.Location4
+                userType = new global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_9_Location4;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 10:   //  DublinWalkingTourApp.Audio1
+                userType = new global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_10_Audio1;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 11:   //  DublinWalkingTourApp.Audio2
+                userType = new global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_Audio2;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 12:   //  DublinWalkingTourApp.Audio3
+                userType = new global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_12_Audio3;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 13:   //  DublinWalkingTourApp.Audio4
+                userType = new global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_13_Audio4;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 14:   //  DublinWalkingTourApp.Location2
+                userType = new global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_14_Location2;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 15:   //  Dublin_WalkingTourApp.MainPage
+                userType = new global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_15_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;
@@ -275,11 +402,37 @@ namespace DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo
             return foundXamlType;
         }
 
+        private object get_0_Location1_NavigationHelper(object instance)
+        {
+            var that = (global::DublinWalkingTourApp.Location1)instance;
+            return that.NavigationHelper;
+        }
+        private object get_1_Location1_DefaultViewModel(object instance)
+        {
+            var that = (global::DublinWalkingTourApp.Location1)instance;
+            return that.DefaultViewModel;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlMember xamlMember = null;
-            // No Local Properties
+            global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType userType;
+
+            switch (longMemberName)
+            {
+            case "DublinWalkingTourApp.Location1.NavigationHelper":
+                userType = (global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DublinWalkingTourApp.Location1");
+                xamlMember = new global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlMember(this, "NavigationHelper", "DublinWalkingTourApp.Common.NavigationHelper");
+                xamlMember.Getter = get_0_Location1_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "DublinWalkingTourApp.Location1.DefaultViewModel":
+                userType = (global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DublinWalkingTourApp.Location1");
+                xamlMember = new global::DublinWalkingTourApp.DublinWalkingTourApp_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "DublinWalkingTourApp.Common.ObservableDictionary");
+                xamlMember.Getter = get_1_Location1_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            }
             return xamlMember;
         }
     }
